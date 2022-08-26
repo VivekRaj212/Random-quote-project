@@ -1,0 +1,55 @@
+#root,html,body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.app {
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./images/quotes.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+
+  height: 233px;
+  width: 470px;
+  background-color: #b7b7b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 1%;
+  box-shadow: 3px 3px #7fefff;
+}
+
+h3 {
+
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.btn {
+
+  border-radius: 20px;
+  position: fixed;
+  bottom:   280px;
+  padding: 0.7%;
+  font-weight: bolder;
+  background-color: #4b2aa5;
+  color: wheat;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+      width: 80%;
+      height: 30%;
+  }
+}
